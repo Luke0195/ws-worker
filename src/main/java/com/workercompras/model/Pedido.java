@@ -18,6 +18,7 @@ import java.util.Date;
 public class Pedido implements Serializable {
     private Long id;
     private String nome;
+    private String email;
     private Long produto;
     private BigDecimal valor;
     private Date dataCompra;
