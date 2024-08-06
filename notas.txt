@@ -1,0 +1,6 @@
+Melhorias para esse micro-serviço.
+
+- Criar um docker file e docker-compose para subir a informa estrutura.
+- Criar uma collection com o mongodb para salvar o endereço.
+- Adicionar um redis para realizar cache nas consultar,
+- Criar cenários de teste para aplicação.

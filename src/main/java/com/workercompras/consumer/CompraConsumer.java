@@ -28,7 +28,7 @@ public class CompraConsumer {
         Pedido pedido = objectMapper.readValue(message.getBody(), Pedido.class);
         log.info(pedido.toString());
         log.info("Mensagem Recebida");
-        emailService.notificarCliente("dev_lucas.santos@hotmail.com");
+        emailService.notificarCliente(pedido.getEmail());
 
     }
 
